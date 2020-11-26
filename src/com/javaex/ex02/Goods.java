@@ -9,12 +9,15 @@ public class Goods {
 		this.name = name;
 		this.price = price;
 	}
+	public Goods() {
+		
+	}
 	
 	public String getName() {
 		return name;
 	}
 
-	private void setName(String name) {  
+	public void setName(String name) {  
 		this.name = name;
 	}
 
